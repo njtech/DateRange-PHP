@@ -36,7 +36,7 @@ $dateRange = new DateRange();
 $dtz = new DateTimeZone('GMT');
 $dateRange = new DateRange($dtz);
 ```
-#### Get Date Range
+### Get Date Range
 ```
 // Get "today" as date range
 $dateRangeToday = new DateRange();
