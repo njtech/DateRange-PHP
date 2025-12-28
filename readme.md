@@ -57,7 +57,7 @@ echo 'From: ' . $dateRangeYesterday->from->format('Y-m-d H:i:s') . PHP_EOL;
 echo 'To: ' . $dateRangeYesterday->to->format('Y-m-d H:i:s');
 ```
 ### Using `from` and `to`
-The `from` and `to` methods provide `DateTime` objects of the date range you specified.
+The `from` and `to` properties provide `DateTime` objects of the date range you specified.
 ```php
 echo $dateRange->from->format('Y-m-d H:i:s');
 echo $dateRange->to->format('Y-m-d H:i:s');
