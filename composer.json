@@ -1,0 +1,10 @@
+{
+    "name": "njtech/daterange",
+    "description": "DateRange PHP",
+    "autoload": {
+        "psr-4": {
+            "NJTech\\DateRange\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
