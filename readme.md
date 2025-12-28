@@ -50,7 +50,8 @@ $dateRangeHour->hour();
 echo 'From: ' . $dateRangeHour->from->format('Y-m-d H:i:s') . PHP_EOL;
 echo 'To: ' . $dateRangeHour->to->format('Y-m-d H:i:s');
 
-// You can also specify offsets to get custom date ranges. For example, to get yesterday's date range, offset the day() function by -1 as follows:
+// You can also specify offsets to get custom date ranges
+// For example, to get yesterday's date range, offset the day() function by -1 as follows:
 $dateRangeYesterday = new DateRange();
 $dateRangeYesterday->day(-1);
 echo 'From: ' . $dateRangeYesterday->from->format('Y-m-d H:i:s') . PHP_EOL;
