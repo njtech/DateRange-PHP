@@ -30,10 +30,10 @@ class DateRange
         if ($offsetHours !== 0)
             $dt->add(new DateInterval('PT' . $offsetHours . 'H'));
 
-        $dt->setTime($dt->format('h'), 0, 0);
+        $dt->setTime($dt->format('H'), 0, 0);
         $this->from = clone $dt;
 
-        $dt->setTime($dt->format('h'), 59, 59);
+        $dt->setTime($dt->format('H'), 59, 59);
         $this->to = clone $dt;
     }
 
